@@ -1,0 +1,29 @@
+# Локальні секрети та дані
+data/
+certs/
+logs/
+*.key
+*.pem
+*.crt
+*.cer
+*.csr
+*.srl
+*.p12
+*.pfx
+.env
+users.json
+passwords*
+secrets*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Тимчасові файли
+*.tmp
+*.swp
+*.bak
+*$py.class
